@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vivek Raut — Software Engineer</title>
+<meta name="description" content="Vivek Raut — Computer Science Engineering student. Builder of secure systems, real-time recognition tools, and full-stack applications.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <a href="#top" class="nav__mark">VIVEK</a>
+  <ul class="nav__links" id="navLinks">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#work">Work</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <a href="assets/Vivek_Raut_Resume.pdf" class="nav__cta" download>Resume</a>
+  <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="hero__stage">
+      <div class="hero__name" aria-hidden="true">
+        <span class="hero__name-line" id="scrambleTarget" data-text="Vivek">Vivek</span>
+        <span class="hero__name-line hero__name-line--muted">Raut</span>
+      </div>
+
+      <div class="hero__row">
+        <ul class="hero__social" aria-label="Social links">
+          <li>
+            <a href="https://github.com/vraut130512-maker" aria-label="GitHub" title="GitHub">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/vivek-raut-250181248" aria-label="LinkedIn" title="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4V8h4v1.5A5 5 0 0 1 16 8z"/>
+                <rect x="2" y="9" width="4" height="12"/>
+                <circle cx="4" cy="4" r="2"/>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://leetcode.com/u/vivek__raut/" aria-label="LeetCode" title="LeetCode">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 4l-6 8 6 8"/>
+                <path d="M15 4l6 8-6 8"/>
+              </svg>
+            </a>
+          </li>
+        </ul>
+
+        <div class="hero__photo">
+          <picture>
+            <source srcset="assets/vivek.webp" type="image/webp">
+            <img src="assets/vivek.png" alt="Vivek Raut" width="900" height="1171">
+          </picture>
+          <svg class="hero__decor" viewBox="0 0 100 100" aria-hidden="true">
+            <polygon points="0,0 55,20 10,55" class="decor-tri"/>
+            <circle cx="70" cy="70" r="14" class="decor-dot"/>
+          </svg>
+        </div>
+
+        <div class="hero__info">
+          <p class="hero__tag">— Software Engineer, Entry-Level</p>
+          <h1 class="hero__headline">Based in Pune, India — I build secure,
+            dependable software.</h1>
+          <p class="hero__desc">
+            Final-year CSE student who likes finishing what he starts: an
+            encrypted file-transfer tool, a real-time face-recognition
+            attendance system, and everything in between.
+          </p>
+          <p class="hero__contact-line">
+            P&nbsp;: +91&nbsp;87660&nbsp;04071<br>
+            E&nbsp;: <a href="mailto:rautvivekk@gmail.com">rautvivekk@gmail.com</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT + CTA -->
+  <section class="section section--split" id="about">
+    <div class="split__col">
+      <p class="section__label">About Me</p>
+      <h2 class="split__title">Small details are what
+        separate working code from good code.</h2>
+      <p class="split__text">
+        I'm a final-year Computer Science Engineering student at Nutan
+        College of Engineering and Research, Talegaon, Pune, affiliated
+        with Dr. Babasaheb Ambedkar Technological University — coming from
+        a Diploma in Information Technology at Government Polytechnic,
+        Amravati. I write the encryption logic myself, wire up the
+        databases myself, and debug the edge cases myself.
+      </p>
+    </div>
+    <div class="split__col split__col--cta">
+      <p class="section__label">Let's Build Something</p>
+      <h2 class="split__title">Open To Roles &amp;<br>Internships.</h2>
+      <p class="split__text">Fastest way to reach me —</p>
+      <a href="mailto:rautvivekk@gmail.com" class="cta-link">
+        rautvivekk@gmail.com
+        <span class="cta-link__arrow">→</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="section__head">
+      <p class="section__label">Skills</p>
+      <h2 class="section__title">What I work with</h2>
+    </div>
+    <div class="skills__grid">
+      <div class="skill-block">
+        <h3 class="skill-block__title">Languages</h3>
+        <div class="chips">
+          <span class="chip">Python</span>
+          <span class="chip">Core Java</span>
+          <span class="chip">SQL</span>
+          <span class="chip">JavaScript</span>
+        </div>
+      </div>
+      <div class="skill-block">
+        <h3 class="skill-block__title">Core CS</h3>
+        <div class="chips">
+          <span class="chip">Data Structures &amp; Algorithms</span>
+          <span class="chip">OOPs</span>
+          <span class="chip">DBMS</span>
+          <span class="chip">Operating Systems</span>
+          <span class="chip">Computer Networks</span>
+        </div>
+      </div>
+      <div class="skill-block">
+        <h3 class="skill-block__title">Web</h3>
+        <div class="chips">
+          <span class="chip">HTML</span>
+          <span class="chip">CSS</span>
+          <span class="chip">React</span>
+        </div>
+      </div>
+      <div class="skill-block">
+        <h3 class="skill-block__title">Tools &amp; Data</h3>
+        <div class="chips">
+          <span class="chip">Git</span>
+          <span class="chip">GitHub</span>
+          <span class="chip">VS Code</span>
+          <span class="chip">MySQL Workbench</span>
+          <span class="chip">Linux</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section class="section" id="work">
+    <div class="section__head">
+      <p class="section__label">Work</p>
+      <h2 class="section__title">Selected projects</h2>
+    </div>
+
+    <article class="project">
+      <div class="project__head">
+        <h3 class="project__title">Secure File Transfer Tool</h3>
+        <div class="chips chips--mono">
+          <span class="chip">Python</span>
+          <span class="chip">Sockets</span>
+          <span class="chip">Encryption</span>
+        </div>
+      </div>
+      <p class="project__desc">
+        A client-server file transfer application built on raw Python sockets, with encryption
+        and decryption layered in to keep every transfer confidential. Designed the
+        client-server architecture from scratch and made data integrity the non-negotiable
+        requirement, not an afterthought.
+      </p>
+      <ul class="project__points">
+        <li>Implemented encryption and decryption for secure communication</li>
+        <li>Built the client-server architecture handling file transfer end-to-end</li>
+        <li>Ensured data confidentiality and safe transmission across the wire</li>
+      </ul>
+    </article>
+
+    <article class="project">
+      <div class="project__head">
+        <h3 class="project__title">Smart Attendance System</h3>
+        <div class="chips chips--mono">
+          <span class="chip">Python</span>
+          <span class="chip">OpenCV</span>
+          <span class="chip">LBPH</span>
+          <span class="chip">SQL</span>
+        </div>
+      </div>
+      <p class="project__desc">
+        A real-time attendance system that recognizes faces through a live webcam feed —
+        removing the manual roll-call and closing the door on proxy attendance.
+      </p>
+      <ul class="project__points">
+        <li>Face detection via Haar Cascade, recognition via LBPH</li>
+        <li>Real-time recognition pipeline running on live webcam input</li>
+        <li>SQL database integration for student records and attendance logs</li>
+      </ul>
+    </article>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section" id="education">
+    <div class="section__head">
+      <p class="section__label">Education</p>
+      <h2 class="section__title">Timeline</h2>
+    </div>
+    <div class="timeline">
+      <div class="timeline__item">
+        <span class="timeline__year">2024 — 2027</span>
+        <div class="timeline__body">
+          <h3>Bachelor of Computer Science and Engineering</h3>
+          <p>Nutan College of Engineering and Research, Talegaon, Pune — DBATU University ·</p>
+        </div>
+      </div>
+      <div class="timeline__item">
+        <span class="timeline__year">2021 — 2024</span>
+        <div class="timeline__body">
+          <h3>Diploma in Information Technology</h3>
+          <p>Government Polytechnic, Amravati · 84.95% aggregate</p>
+        </div>
+      </div>
+      <div class="timeline__item">
+        <span class="timeline__year">2020 — 2021</span>
+        <div class="timeline__body">
+          <h3>SSC, Maharashtra State Board</h3>
+          <p>Govind New English Public School, Karanja (Lad), Washim · 97.40%</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section--contact" id="contact">
+    <div class="section__head">
+      <p class="section__label">Contact</p>
+      <h2 class="section__title">Let's talk</h2>
+    </div>
+    <p class="contact__text">
+      Open to entry-level Software Engineer roles and internships. The fastest way to reach me:
+    </p>
+    <div class="contact__links">
+      <a href="tel:+918766004071" class="contact__link">+91&nbsp;87660&nbsp;04071</a>
+      <a href="mailto:rautvivekk@gmail.com" class="contact__link">rautvivekk@gmail.com</a>
+      <a href="https://github.com/vraut130512-maker" class="contact__link">GitHub</a>
+      <a href="https://www.linkedin.com/in/vivek-raut-250181248" class="contact__link">LinkedIn</a>
+      <a href="https://leetcode.com/u/vivek__raut/" class="contact__link">LeetCode</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>Built and maintained by Vivek Raut · <span id="year"></span> · vivekraut.in</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
